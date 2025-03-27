@@ -1,16 +1,16 @@
 Name:Abinaya A
 Reg no:212223040003
 
-# Hill Cipher:
+## Hill Cipher:
 
 
 Hill Cipher using with different key values.
 
-# AIM:
+## AIM:
 
 To develop a simple C program to implement Hill Cipher.
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 
 
 Step 1:
@@ -24,7 +24,7 @@ Implementation using C or pyhton code
 Step 3:
 Testing algorithm with different key values. ALGORITHM DESCRIPTION: The Hill cipher is a substitution cipher invented by Lester S. Hill in 1929. Each letter is represented by a number modulo 26. To encrypt a message, each block of n letters is multiplied by an invertible n × n matrix, again modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption. The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26). The cipher can, be adapted to an alphabet with any number of letters. All arithmetic just needs to be done modulo the number of letters instead of modulo 26.
 
-# PROGRAM:
+## PROGRAM:
 ```
 #include <stdio.h>
 #include <string.h>
@@ -166,11 +166,11 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT:
+## OUTPUT:
 
 ![Screenshot (97)](https://github.com/user-attachments/assets/f3b4ad7a-351f-49a2-82f3-718cb74f76d7)
 
-# RESULT:
+## RESULT:
 The program is executed successfully
 
 
